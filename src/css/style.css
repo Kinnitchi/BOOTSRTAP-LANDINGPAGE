@@ -21,6 +21,10 @@ input[type="checkbox"]:focus {
   outline: none;
 }
 
+.input-range::-webkit-slider-thumb {
+  background-color: var(--brown-light);
+}
+
 .banners {
   width: 100%;
   height: 100vh;
@@ -67,4 +71,16 @@ input[type="checkbox"]:focus {
 .button-default:hover {
   background-color: var(--brown-dark);
   color: #ffffff;
+}
+
+footer {
+  background-color: var(--brown-dark);
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+[data-bs-theme="dark"] {
+  color: #ffffff;
+
 }
