@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Roboto&display=swap');
+
+body {
+  --beige: #E6E0D6;
+  --brown-dark: #816D4F;
+  --brown-light: #B29463;
+  font-family: 'Barlow', sans-serif;
+  height: 4000px;
+}
+
+input[type=checkbox] {
+  border: 2px solid var(--brown-light);
+  box-shadow: none;
+}
+
+input[type=checkbox]:checked,
+input[type="checkbox"]:focus {
+  background-color: var(--brown-light);
+  border-color: var(--brown-light);
+  box-shadow: none;
+  outline: none;
+}
+
+.banners {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.banner-one {
+  background-image: url(../img/banner-1.png);
+}
+
+.banner-two {
+  background-image: url(../img/banner-2.png);
+}
+
+.banner-three {
+  background-image: url(../img/banner-3.png);
+}
+
+.banners-titulo {
+  --bs-bg-opacity: .3;
+}
+
+.card-style {
+  border-color: var(--brown-light);
+}
+
+.button-default {
+  background-color: var(--brown-light);
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-default:hover {
+  background-color: var(--brown-dark);
+  color: #ffffff;
+}
